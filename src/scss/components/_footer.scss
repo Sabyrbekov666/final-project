@@ -1,0 +1,79 @@
+.footer {
+	background-color: rgb(27, 27, 27);
+	padding-top: 0px;
+	margin-top: 50px;
+	.dodopizza__stock {
+		background-color: rgb(255, 88, 28);
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		span {
+			color: #fff;
+			font-size: 19px;
+		}
+		button {
+			border-radius: 16px;
+			border: 0;
+			padding: 7px 20px;
+			font-size: 16px;
+			margin-left: 200px;
+		}
+	}
+	.container {
+		.about__dodopizza {
+			display: flex;
+			gap: 50px;
+			margin-bottom: 70px;
+			padding-top: 30px;
+			h4 {
+				color: #fff;
+			}
+			p {
+				color: rgb(170, 170, 170);
+			}
+		}
+		.about__payment {
+			display: flex;
+			justify-content: end;
+			p {
+				color: rgb(172, 172, 172);
+			}
+			img {
+				width: 250px;
+			}
+		}
+
+		justify-content: center;
+		.contacts {
+			h2 {
+				color: #fff;
+			}
+			span {
+				color: rgb(170, 170, 170);
+			}
+		}
+		hr {
+			border: none;
+			background-color: rgb(68, 68, 68);
+			color: rgb(170, 170, 170);
+			height: 0.2px;
+		}
+		.about-legal__information {
+			justify-content: space-between;
+			display: flex;
+			align-items: center;
+			padding: 30px 30px;
+			span {
+				color: rgb(170, 170, 170);
+			}
+			div {
+				img {
+					border-radius: 100px;
+					width: 40px;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}

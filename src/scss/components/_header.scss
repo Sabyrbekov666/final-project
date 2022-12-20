@@ -1,0 +1,35 @@
+@import '../variables';
+
+.header {
+	padding: 30px 0;
+
+	.container {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+
+		@media (max-width: 645px) {
+			flex-direction: column;
+
+			.header__cart {
+				margin-top: 20px;
+			}
+		}
+		div {
+		}
+		.about__delivery {
+			.delivery__rating {
+				display: flex;
+				align-items: center;
+			}
+		}
+	}
+
+	&__logo {
+		display: flex;
+		.header__logo {
+			width: 200px;
+			height: 50px;
+		}
+	}
+}
